@@ -1,59 +1,32 @@
 var state_data = {
   "US": {
-    "downstream_growth": {
-      "overall": 28.6,
-      "past_week": -1.1
+    "helped_local_communities": 54, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 74,
+      "job": 59
     },
-    "upstream_growth": {
-      "overall": 51,
-      "past_week": 0.9
+    "internet_service": { // NCT 2
+      "download_speed": 79,
+      "quality": 81,
+      "reliability": 80,
+      "security": 81
     },
-    "network_performance": {
-      "normal": 97.8,
-      "elevated": 2,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 66,
+      "record_shows": 60
+    },
+    "gig_speed": 61, // NCT 4
+    "internet_features": { // NCT 3
+      "speed": 83,
+      "dependable": 89,
+      "privacy": 88,
+      "data": 84
     },
     "id": "US",
-    "name": "National",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      },
-      "2619": {
-        "name": "GCI",
-        "link": "https://www.gci.com/COVID-19"
-      },
-      "2620": {
-        "name": "Sjoberg's",
-        "link": "http://trf.mncable.net/"
-      }
-    }
+    "name": "National"
   },
   "AL": {
     "downstream_growth": {
