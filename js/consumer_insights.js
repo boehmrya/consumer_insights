@@ -29,64 +29,17 @@ var state_data = {
     "name": "National"
   },
   "AL": {
-    "downstream_growth": {
-      "overall": 31.6,
-      "past_week": 1.3
-    },
-    "upstream_growth": {
-      "overall": 47.7,
-      "past_week": 0.7
-    },
-    "network_performance": {
-      "normal": 98.9,
-      "elevated": 0.9,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0.1
-    },
+    "helped_local_communities": 52, // NCT 7
+
     "id": "AL",
-    "name": "Alabama",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Alabama"
   },
   "AK": {
-    "downstream_growth": {
-      "overall": 40.4,
-      "past_week": -2.8
-    },
-    "upstream_growth": {
-      "overall": 54.1,
-      "past_week": 0.3
-    },
-    "network_performance": {
-      "normal": 99.9,
-      "elevated": 0.1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 44, // NCT 7
+
     "id": "AK",
     "name": "Alaska",
-    "providers": {
-      "2619": {
-        "name": "GCI",
-        "link": "https://www.gci.com/COVID-19"
-      }
-    }
+
   },
   "AZ": {
     "downstream_growth": {
