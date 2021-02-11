@@ -107,1248 +107,232 @@ var state_data = {
     "name": "Idaho"
   },
   "IL": {
-    "downstream_growth": {
-      "overall": 25,
-      "past_week": -0.2
-    },
-    "upstream_growth": {
-      "overall": 48,
-      "past_week": 3
-    },
-    "network_performance": {
-      "normal": 98.1,
-      "elevated": 1.9,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "IL",
-    "name": "Illinois",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Illinois"
   },
   "IN": {
-    "downstream_growth": {
-      "overall": 21.7,
-      "past_week": -0.9
-    },
-    "upstream_growth": {
-      "overall": 43.3,
-      "past_week": 0.5
-    },
-    "network_performance": {
-      "normal": 99.2,
-      "elevated": 0.8,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 54, // NCT 7
+
     "id": "IN",
-    "name": "Indiana",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Indiana"
   },
   "IA": {
-    "downstream_growth": {
-      "overall": 10.3,
-      "past_week": 0.9
-    },
-    "upstream_growth": {
-      "overall": 53.2,
-      "past_week": 4.8
-    },
-    "network_performance": {
-      "normal": 99.9,
-      "elevated": 0.1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "IA",
-    "name": "Iowa",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Iowa"
   },
   "KS": {
-    "downstream_growth": {
-      "overall": 21.9,
-      "past_week": -1
-    },
-    "upstream_growth": {
-      "overall": 48,
-      "past_week": 0.9
-    },
-    "network_performance": {
-      "normal": 99.6,
-      "elevated": 0.3,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "KS",
-    "name": "Kansas",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      }
-    }
+    "name": "Kansas"
   },
   "KY": {
-    "downstream_growth": {
-      "overall": 29.4,
-      "past_week": -0.6
-    },
-    "upstream_growth": {
-      "overall": 56.1,
-      "past_week": 5
-    },
-    "network_performance": {
-      "normal": 98.5,
-      "elevated": 1.4,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 52, // NCT 7
+
     "id": "KY",
-    "name": "Kentucky",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Kentucky"
   },
   "LA": {
-    "downstream_growth": {
-      "overall": 30.9,
-      "past_week": -0.4
-    },
-    "upstream_growth": {
-      "overall": 41.8,
-      "past_week": 0.1
-    },
-    "network_performance": {
-      "normal": 98.9,
-      "elevated": 0.9,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "LA",
-    "name": "Louisiana",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Louisiana"
   },
   "ME": {
-    "downstream_growth": {
-      "overall": 37.1,
-      "past_week": 0.1
-    },
-    "upstream_growth": {
-      "overall": 64.3,
-      "past_week": 0.7
-    },
-    "network_performance": {
-      "normal": 99.8,
-      "elevated": 0.2,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 59, // NCT 7
+
     "id": "ME",
-    "name": "Maine",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Maine"
   },
   "MD": {
-    "downstream_growth": {
-      "overall": 24.7,
-      "past_week": -1
-    },
-    "upstream_growth": {
-      "overall": 47.4,
-      "past_week": 1.5
-    },
-    "network_performance": {
-      "normal": 98.1,
-      "elevated": 1.9,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 54, // NCT 7
+
     "id": "MD",
-    "name": "Maryland",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Maryland"
   },
   "MA": {
-    "downstream_growth": {
-      "overall": 32.1,
-      "past_week": -1.1
-    },
-    "upstream_growth": {
-      "overall": 46,
-      "past_week": 2.3
-    },
-    "network_performance": {
-      "normal": 98.7,
-      "elevated": 1.2,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 54, // NCT 7
+
     "id": "MA",
-    "name": "Massachusetts",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Massachusetts"
   },
   "MI": {
-    "downstream_growth": {
-      "overall": 31.6,
-      "past_week": -1
-    },
-    "upstream_growth": {
-      "overall": 50.3,
-      "past_week": -0.3
-    },
-    "network_performance": {
-      "normal": 98.8,
-      "elevated": 1.1,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 56, // NCT 7
+
     "id": "MI",
-    "name": "Michigan",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Michigan"
   },
   "MN": {
-    "downstream_growth": {
-      "overall": 29.9,
-      "past_week": -1.9
-    },
-    "upstream_growth": {
-      "overall": 47.3,
-      "past_week": -0.6
-    },
-    "network_performance": {
-      "normal": 98.6,
-      "elevated": 1.3,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "MN",
-    "name": "Minnesota",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      },
-      "2620": {
-        "name": "Sjoberg's",
-        "link": "http://trf.mncable.net/"
-      }
-    }
+    "name": "Minnesota"
   },
   "MS": {
-    "downstream_growth": {
-      "overall": 22,
-      "past_week": -2.2
-    },
-    "upstream_growth": {
-      "overall": 30.2,
-      "past_week": -3.1
-    },
-    "network_performance": {
-      "normal": 98.9,
-      "elevated": 0.9,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "MS",
-    "name": "Mississippi",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Mississippi"
   },
   "MO": {
-    "downstream_growth": {
-      "overall": 21.1,
-      "past_week": -1.4
-    },
-    "upstream_growth": {
-      "overall": 55.2,
-      "past_week": 5.7
-    },
-    "network_performance": {
-      "normal": 98.6,
-      "elevated": 1.3,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "MO",
-    "name": "Missouri",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Missouri"
   },
   "MT": {
-    "downstream_growth": {
-      "overall": 28.6,
-      "past_week": 1
-    },
-    "upstream_growth": {
-      "overall": 55.5,
-      "past_week": 0.9
-    },
-    "network_performance": {
-      "normal": 98.3,
-      "elevated": 1.4,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "MT",
-    "name": "Montana",
-    "providers": {
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Montana"
   },
   "NE": {
-    "downstream_growth": {
-      "overall": 28.3,
-      "past_week": 3.9
-    },
-    "upstream_growth": {
-      "overall": 53.8,
-      "past_week": 11
-    },
-    "network_performance": {
-      "normal": 99.9,
-      "elevated": 0.1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "NE",
-    "name": "Nebraska",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Nebraska"
   },
   "NV": {
-    "downstream_growth": {
-      "overall": 27.8,
-      "past_week": 0.1
-    },
-    "upstream_growth": {
-      "overall": 67.5,
-      "past_week": 4.9
-    },
-    "network_performance": {
-      "normal": 98,
-      "elevated": 1.9,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 54, // NCT 7
+
     "id": "NV",
-    "name": "Nevada",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Nevada"
   },
   "NH": {
-    "downstream_growth": {
-      "overall": 34.3,
-      "past_week": -1.9
-    },
-    "upstream_growth": {
-      "overall": 43.4,
-      "past_week": 0.4
-    },
-    "network_performance": {
-      "normal": 99.6,
-      "elevated": 0.4,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 57, // NCT 7
+
     "id": "NH",
-    "name": "New Hampshire",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "New Hampshire"
   },
   "NJ": {
-    "downstream_growth": {
-      "overall": 22.3,
-      "past_week": -1.4
-    },
-    "upstream_growth": {
-      "overall": 48.2,
-      "past_week": 1.6
-    },
-    "network_performance": {
-      "normal": 97.8,
-      "elevated": 2.1,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 52, // NCT 7
+
     "id": "NJ",
-    "name": "New Jersey",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "New Jersey"
   },
   "NM": {
-    "downstream_growth": {
-      "overall": 39.5,
-      "past_week": -1
-    },
-    "upstream_growth": {
-      "overall": 52.6,
-      "past_week": 2.2
-    },
-    "network_performance": {
-      "normal": 95.1,
-      "elevated": 4.4,
-      "substantially_elevated": 0.5,
-      "severely_elevated": 0.1
-    },
+    "helped_local_communities": 58, // NCT 7
+
     "id": "NM",
-    "name": "New Mexico",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "New Mexico"
   },
   "NY": {
-    "downstream_growth": {
-      "overall": 29.6,
-      "past_week": -1.9
-    },
-    "upstream_growth": {
-      "overall": 55.4,
-      "past_week": 1.6
-    },
-    "network_performance": {
-      "normal": 97.5,
-      "elevated": 2.3,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 59, // NCT 7
+
     "id": "NY",
-    "name": "New York",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "New York"
   },
   "NC": {
-    "downstream_growth": {
-      "overall": 38.1,
-      "past_week": -1.3
-    },
-    "upstream_growth": {
-      "overall": 58.9,
-      "past_week": 2.2
-    },
-    "network_performance": {
-      "normal": 98,
-      "elevated": 1.9,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 57, // NCT 7
+
     "id": "NC",
-    "name": "North Carolina",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "North Carolina"
   },
   "ND": {
-    "downstream_growth": {
-      "overall": 14.8,
-      "past_week": -4.1
-    },
-    "upstream_growth": {
-      "overall": 13.5,
-      "past_week": -5.8
-    },
-    "network_performance": {
-      "normal": 99.9,
-      "elevated": 0.1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "ND",
-    "name": "North Dakota",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      }
-    }
+    "name": "North Dakota"
   },
   "OH": {
-    "downstream_growth": {
-      "overall": 36.3,
-      "past_week": -0.1
-    },
-    "upstream_growth": {
-      "overall": 56,
-      "past_week": -1.3
-    },
-    "network_performance": {
-      "normal": 98.9,
-      "elevated": 1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "OH",
-    "name": "Ohio",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Ohio"
   },
   "OK": {
-    "downstream_growth": {
-      "overall": 18.7,
-      "past_week": -1.3
-    },
-    "upstream_growth": {
-      "overall": 36.6,
-      "past_week": 0.6
-    },
-    "network_performance": {
-      "normal": 99.6,
-      "elevated": 0.3,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 54, // NCT 7
+
     "id": "OK",
-    "name": "Oklahoma",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      }
-    }
+    "name": "Oklahoma"
   },
   "OR": {
-    "downstream_growth": {
-      "overall": 32,
-      "past_week": 0.2
-    },
-    "upstream_growth": {
-      "overall": 47.1,
-      "past_week": 2.7
-    },
-    "network_performance": {
-      "normal": 97.7,
-      "elevated": 1.8,
-      "substantially_elevated": 0.4,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "OR",
-    "name": "Oregon",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Oregon"
   },
   "PA": {
-    "downstream_growth": {
-      "overall": 23,
-      "past_week": -0.9
-    },
-    "upstream_growth": {
-      "overall": 40.9,
-      "past_week": 1
-    },
-    "network_performance": {
-      "normal": 98.7,
-      "elevated": 1.2,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "PA",
-    "name": "Pennsylvania",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Pennsylvania"
   },
   "RI": {
-    "downstream_growth": {
-      "overall": 28,
-      "past_week": -0.6
-    },
-    "upstream_growth": {
-      "overall": 60,
-      "past_week": 2.2
-    },
-    "network_performance": {
-      "normal": 99.7,
-      "elevated": 0.3,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "RI",
-    "name": "Rhode Island",
-    "providers": {
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      }
-    }
+    "name": "Rhode Island"
   },
   "SC": {
-    "downstream_growth": {
-      "overall": 40,
-      "past_week": -1.2
-    },
-    "upstream_growth": {
-      "overall": 54.5,
-      "past_week": 0.1
-    },
-    "network_performance": {
-      "normal": 98.8,
-      "elevated": 1.2,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 56, // NCT 7
+
     "id": "SC",
-    "name": "South Carolina",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "South Carolina"
   },
   "SD": {
-    "downstream_growth": {
-      "overall": 12.4,
-      "past_week": -7.7
-    },
-    "upstream_growth": {
-      "overall": -2.1,
-      "past_week": -4.1
-    },
-    "network_performance": {
-      "normal": 100,
-      "elevated": 0,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "SD",
-    "name": "South Dakota",
-    "providers": {
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      }
-    }
+    "name": "South Dakota"
   },
   "TN": {
-    "downstream_growth": {
-      "overall": 29.6,
-      "past_week": 0.1
-    },
-    "upstream_growth": {
-      "overall": 40.2,
-      "past_week": -1.1
-    },
-    "network_performance": {
-      "normal": 98.4,
-      "elevated": 1.5,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 53, // NCT 7
+
     "id": "TN",
-    "name": "Tennessee",
-    "providers": {
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      }
-    }
+    "name": "Tennessee"
   },
   "TX": {
-    "downstream_growth": {
-      "overall": 28.3,
-      "past_week": -0.2
-    },
-    "upstream_growth": {
-      "overall": 45.7,
-      "past_week": -0.7
-    },
-    "network_performance": {
-      "normal": 98.4,
-      "elevated": 1.5,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 57, // NCT 7
+
     "id": "TX",
-    "name": "Texas",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Texas"
   },
   "UT": {
-    "downstream_growth": {
-      "overall": 20.6,
-      "past_week": -1.7
-    },
-    "upstream_growth": {
-      "overall": 36.7,
-      "past_week": 0.8
-    },
-    "network_performance": {
-      "normal": 98.4,
-      "elevated": 1.6,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 51, // NCT 7
+
     "id": "UT",
-    "name": "Utah",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      }
-    }
+    "name": "Utah"
   },
   "VT": {
-    "downstream_growth": {
-      "overall": 35.5,
-      "past_week": -2.4
-    },
-    "upstream_growth": {
-      "overall": 40.5,
-      "past_week": -0.4
-    },
-    "network_performance": {
-      "normal": 99.5,
-      "elevated": 0.5,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 65, // NCT 7
+
     "id": "VT",
-    "name": "Vermont",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Vermont"
   },
   "VA": {
-    "downstream_growth": {
-      "overall": 24.3,
-      "past_week": 0.3
-    },
-    "upstream_growth": {
-      "overall": 51.7,
-      "past_week": 1.3
-    },
-    "network_performance": {
-      "normal": 98.9,
-      "elevated": 1.1,
-      "substantially_elevated": 0,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 56, // NCT 7
+
     "id": "VA",
-    "name": "Virginia",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2559": {
-        "name": "Cox",
-        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Virginia"
   },
   "WA": {
-    "downstream_growth": {
-      "overall": 26.6,
-      "past_week": -0.9
-    },
-    "upstream_growth": {
-      "overall": 42.8,
-      "past_week": 1.5
-    },
-    "network_performance": {
-      "normal": 97,
-      "elevated": 2.2,
-      "substantially_elevated": 0.7,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 55, // NCT 7
+
     "id": "WA",
-    "name": "Washington",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Washington"
   },
   "WV": {
-    "downstream_growth": {
-      "overall": 23,
-      "past_week": -0.7
-    },
-    "upstream_growth": {
-      "overall": 38.8,
-      "past_week": 1.2
-    },
-    "network_performance": {
-      "normal": 97.4,
-      "elevated": 2.2,
-      "substantially_elevated": 0.4,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 50, // NCT 7
+
     "id": "WV",
-    "name": "West Virginia",
-    "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "http://www.charter.net"
-      }
-    }
+    "name": "West Virginia"
   },
   "WI": {
-    "downstream_growth": {
-      "overall": 30.2,
-      "past_week": -0.1
-    },
-    "upstream_growth": {
-      "overall": 64.4,
-      "past_week": 7.2
-    },
-    "network_performance": {
-      "normal": 97.5,
-      "elevated": 2.4,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
-    },
+    "helped_local_communities": 58, // NCT 7
+
     "id": "WI",
-    "name": "Wisconsin",
-    "providers": {
-      "2558": {
-        "name": "Comcast",
-        "link": "https://corporate.comcast.com/covid-19/network"
-      },
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      },
-      "2567": {
-        "name": "Mediacom",
-        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
-      },
-      "2568": {
-        "name": "Midco",
-        "link": "https://www.midco.com/covid-19-response/"
-      }
-    }
+    "name": "Wisconsin"
   },
   "WY": {
-    "downstream_growth": {
-      "overall": 24,
-      "past_week": 2.3
-    },
-    "upstream_growth": {
-      "overall": 46.1,
-      "past_week": 2
-    },
-    "network_performance": {
-      "normal": 98.3,
-      "elevated": 1.5,
-      "substantially_elevated": 0,
-      "severely_elevated": 0.2
-    },
+    "helped_local_communities": 50, // NCT 7
+
     "id": "WY",
-    "name": "Wyoming",
-    "providers": {
-      "2560": {
-        "name": "Charter",
-        "link": "https://corporate.charter.com/covid-19-response"
-      }
-    }
+    "name": "Wyoming"
   }
 }
 
