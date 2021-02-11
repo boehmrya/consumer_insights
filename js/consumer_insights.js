@@ -30,12 +30,24 @@ var state_data = {
   },
   "AL": {
     "helped_local_communities": 52, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 73,
+      "job": 56
+    },
 
     "id": "AL",
     "name": "Alabama"
   },
   "AK": {
     "helped_local_communities": 44, // NCT 7
+    "economy": { // NCT 6
+      "us": 78,
+      "state": 75,
+      "local": 70,
+      "job": 63
+    },
 
     "id": "AK",
     "name": "Alaska"
