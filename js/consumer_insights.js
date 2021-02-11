@@ -318,162 +318,324 @@ var state_data = {
   },
   "MS": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 73,
+      "job": 55
+    },
 
     "id": "MS",
     "name": "Mississippi"
   },
   "MO": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 78,
+      "state": 76,
+      "local": 73,
+      "job": 56
+    },
 
     "id": "MO",
     "name": "Missouri"
   },
   "MT": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 78,
+      "local": 75,
+      "job": 56
+    },
 
     "id": "MT",
     "name": "Montana"
   },
   "NE": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 75,
+      "job": 58
+    },
 
     "id": "NE",
     "name": "Nebraska"
   },
   "NV": {
     "helped_local_communities": 54, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 74,
+      "job": 59
+    },
 
     "id": "NV",
     "name": "Nevada"
   },
   "NH": {
     "helped_local_communities": 57, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 79,
+      "local": 77,
+      "job": 61
+    },
 
     "id": "NH",
     "name": "New Hampshire"
   },
   "NJ": {
     "helped_local_communities": 52, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 76,
+      "local": 73,
+      "job": 63
+    },
 
     "id": "NJ",
     "name": "New Jersey"
   },
   "NM": {
     "helped_local_communities": 58, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 78,
+      "local": 75,
+      "job": 59
+    },
 
     "id": "NM",
     "name": "New Mexico"
   },
   "NY": {
     "helped_local_communities": 59, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 78,
+      "local": 75,
+      "job": 63
+    },
 
     "id": "NY",
     "name": "New York"
   },
   "NC": {
     "helped_local_communities": 57, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 78,
+      "local": 76,
+      "job": 60
+    },
 
     "id": "NC",
     "name": "North Carolina"
   },
   "ND": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 78,
+      "local": 76,
+      "job": 59
+    },
 
     "id": "ND",
     "name": "North Dakota"
   },
   "OH": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 73,
+      "job": 55
+    },
 
     "id": "OH",
     "name": "Ohio"
   },
   "OK": {
     "helped_local_communities": 54, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 75,
+      "job": 57
+    },
 
     "id": "OK",
     "name": "Oklahoma"
   },
   "OR": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 81,
+      "state": 78,
+      "local": 75,
+      "job": 60
+    },
 
     "id": "OR",
     "name": "Oregon"
   },
   "PA": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 76,
+      "local": 72,
+      "job": 58
+    },
 
     "id": "PA",
     "name": "Pennsylvania"
   },
   "RI": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 76,
+      "local": 74,
+      "job": 60
+    },
 
     "id": "RI",
     "name": "Rhode Island"
   },
   "SC": {
     "helped_local_communities": 56, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 75,
+      "job": 57
+    },
 
     "id": "SC",
     "name": "South Carolina"
   },
   "SD": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 75,
+      "job": 57
+    },
 
     "id": "SD",
     "name": "South Dakota"
   },
   "TN": {
     "helped_local_communities": 53, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 77,
+      "local": 75,
+      "job": 55
+    },
 
     "id": "TN",
     "name": "Tennessee"
   },
   "TX": {
     "helped_local_communities": 57, // NCT 7
+    "economy": { // NCT 6
+      "us": 81,
+      "state": 79,
+      "local": 76,
+      "job": 62
+    },
 
     "id": "TX",
     "name": "Texas"
   },
   "UT": {
     "helped_local_communities": 51, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 76,
+      "local": 74,
+      "job": 62
+    },
 
     "id": "UT",
     "name": "Utah"
   },
   "VT": {
     "helped_local_communities": 65, // NCT 7
+    "economy": { // NCT 6
+      "us": 82,
+      "state": 80,
+      "local": 79,
+      "job": 60
+    },
 
     "id": "VT",
     "name": "Vermont"
   },
   "VA": {
     "helped_local_communities": 56, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 77,
+      "local": 75,
+      "job": 62
+    },
 
     "id": "VA",
     "name": "Virginia"
   },
   "WA": {
     "helped_local_communities": 55, // NCT 7
+    "economy": { // NCT 6
+      "us": 81,
+      "state": 79,
+      "local": 75,
+      "job": 64
+    },
 
     "id": "WA",
     "name": "Washington"
   },
   "WV": {
     "helped_local_communities": 50, // NCT 7
+    "economy": { // NCT 6
+      "us": 78,
+      "state": 76,
+      "local": 71,
+      "job": 51
+    },
 
     "id": "WV",
     "name": "West Virginia"
   },
   "WI": {
     "helped_local_communities": 58, // NCT 7
+    "economy": { // NCT 6
+      "us": 80,
+      "state": 78,
+      "local": 76,
+      "job": 58
+    },
 
     "id": "WI",
     "name": "Wisconsin"
   },
   "WY": {
     "helped_local_communities": 50, // NCT 7
+    "economy": { // NCT 6
+      "us": 79,
+      "state": 76,
+      "local": 74,
+      "job": 57
+    },
 
     "id": "WY",
     "name": "Wyoming"
