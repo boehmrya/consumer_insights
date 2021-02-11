@@ -469,10 +469,10 @@ var state_data = {
       "job": 55
     },
     "internet_service": { // NCT 2
-      "download_speed": 80,
-      "quality": 82,
-      "reliability": 82,
-      "security": 84
+      "download_speed": 77,
+      "quality": 80,
+      "reliability": 77,
+      "security": 81
     },
 
     "id": "MS",
@@ -486,6 +486,12 @@ var state_data = {
       "local": 73,
       "job": 56
     },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 80,
+      "reliability": 80,
+      "security": 81
+    },
 
     "id": "MO",
     "name": "Missouri"
@@ -497,6 +503,12 @@ var state_data = {
       "state": 78,
       "local": 75,
       "job": 56
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 78,
+      "quality": 80,
+      "reliability": 78,
+      "security": 82
     },
 
     "id": "MT",
@@ -510,6 +522,12 @@ var state_data = {
       "local": 75,
       "job": 58
     },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 79,
+      "reliability": 79,
+      "security": 83
+    },
 
     "id": "NE",
     "name": "Nebraska"
@@ -521,6 +539,12 @@ var state_data = {
       "state": 77,
       "local": 74,
       "job": 59
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 79,
+      "quality": 81,
+      "reliability": 80,
+      "security": 81
     },
 
     "id": "NV",
@@ -534,6 +558,12 @@ var state_data = {
       "local": 77,
       "job": 61
     },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 82,
+      "reliability": 83,
+      "security": 84
+    },
 
     "id": "NH",
     "name": "New Hampshire"
@@ -545,6 +575,12 @@ var state_data = {
       "state": 76,
       "local": 73,
       "job": 63
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 84,
+      "reliability": 84,
+      "security": 85
     },
 
     "id": "NJ",
@@ -558,6 +594,12 @@ var state_data = {
       "local": 75,
       "job": 59
     },
+    "internet_service": { // NCT 2
+      "download_speed": 78,
+      "quality": 78,
+      "reliability": 78,
+      "security": 79
+    },
 
     "id": "NM",
     "name": "New Mexico"
@@ -569,6 +611,12 @@ var state_data = {
       "state": 78,
       "local": 75,
       "job": 63
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 84,
+      "quality": 85,
+      "reliability": 84,
+      "security": 84
     },
 
     "id": "NY",
@@ -582,6 +630,12 @@ var state_data = {
       "local": 76,
       "job": 60
     },
+    "internet_service": { // NCT 2
+      "download_speed": 78,
+      "quality": 79,
+      "reliability": 78,
+      "security": 81
+    },
 
     "id": "NC",
     "name": "North Carolina"
@@ -593,6 +647,12 @@ var state_data = {
       "state": 78,
       "local": 76,
       "job": 59
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 76,
+      "quality": 80,
+      "reliability": 79,
+      "security": 84
     },
 
     "id": "ND",
@@ -606,6 +666,12 @@ var state_data = {
       "local": 73,
       "job": 55
     },
+    "internet_service": { // NCT 2
+      "download_speed": 79,
+      "quality": 81,
+      "reliability": 79,
+      "security": 82
+    },
 
     "id": "OH",
     "name": "Ohio"
@@ -617,6 +683,12 @@ var state_data = {
       "state": 77,
       "local": 75,
       "job": 57
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 79,
+      "reliability": 77,
+      "security": 80
     },
 
     "id": "OK",
@@ -630,6 +702,12 @@ var state_data = {
       "local": 75,
       "job": 60
     },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 80,
+      "reliability": 81,
+      "security": 80
+    },
 
     "id": "OR",
     "name": "Oregon"
@@ -641,6 +719,12 @@ var state_data = {
       "state": 76,
       "local": 72,
       "job": 58
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 83,
+      "reliability": 81,
+      "security": 84
     },
 
     "id": "PA",
@@ -654,6 +738,12 @@ var state_data = {
       "local": 74,
       "job": 60
     },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 81,
+      "reliability": 82,
+      "security": 81
+    },
 
     "id": "RI",
     "name": "Rhode Island"
@@ -665,6 +755,12 @@ var state_data = {
       "state": 77,
       "local": 75,
       "job": 57
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 78,
+      "quality": 80,
+      "reliability": 80,
+      "security": 80
     },
 
     "id": "SC",
@@ -678,6 +774,12 @@ var state_data = {
       "local": 75,
       "job": 57
     },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 80,
+      "reliability": 79,
+      "security": 83
+    },
 
     "id": "SD",
     "name": "South Dakota"
@@ -689,6 +791,12 @@ var state_data = {
       "state": 77,
       "local": 75,
       "job": 55
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 80,
+      "reliability": 78,
+      "security": 80
     },
 
     "id": "TN",
@@ -702,6 +810,12 @@ var state_data = {
       "local": 76,
       "job": 62
     },
+    "internet_service": { // NCT 2
+      "download_speed": 78,
+      "quality": 79,
+      "reliability": 79,
+      "security": 80
+    },
 
     "id": "TX",
     "name": "Texas"
@@ -713,6 +827,12 @@ var state_data = {
       "state": 76,
       "local": 74,
       "job": 62
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 77,
+      "quality": 81,
+      "reliability": 80,
+      "security": 84
     },
 
     "id": "UT",
@@ -726,6 +846,12 @@ var state_data = {
       "local": 79,
       "job": 60
     },
+    "internet_service": { // NCT 2
+      "download_speed": 82,
+      "quality": 81,
+      "reliability": 80,
+      "security": 77
+    },
 
     "id": "VT",
     "name": "Vermont"
@@ -737,6 +863,12 @@ var state_data = {
       "state": 77,
       "local": 75,
       "job": 62
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 79,
+      "quality": 80,
+      "reliability": 81,
+      "security": 82
     },
 
     "id": "VA",
@@ -750,6 +882,12 @@ var state_data = {
       "local": 75,
       "job": 64
     },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 82,
+      "reliability": 83,
+      "security": 83
+    },
 
     "id": "WA",
     "name": "Washington"
@@ -761,6 +899,12 @@ var state_data = {
       "state": 76,
       "local": 71,
       "job": 51
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 75,
+      "quality": 79,
+      "reliability": 77,
+      "security": 83
     },
 
     "id": "WV",
@@ -774,6 +918,12 @@ var state_data = {
       "local": 76,
       "job": 58
     },
+    "internet_service": { // NCT 2
+      "download_speed": 80,
+      "quality": 81,
+      "reliability": 80,
+      "security": 81
+    },
 
     "id": "WI",
     "name": "Wisconsin"
@@ -785,6 +935,12 @@ var state_data = {
       "state": 76,
       "local": 74,
       "job": 57
+    },
+    "internet_service": { // NCT 2
+      "download_speed": 74,
+      "quality": 78,
+      "reliability": 78,
+      "security": 84
     },
 
     "id": "WY",
