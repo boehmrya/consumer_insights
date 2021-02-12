@@ -42,6 +42,11 @@ var state_data = {
       "reliability": 76,
       "security": 81
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 71,
+      "more_choices": 65,
+      "record_shows": 59
+    },
 
     "id": "AL",
     "name": "Alabama"
@@ -59,6 +64,11 @@ var state_data = {
       "quality": 82,
       "reliability": 81,
       "security": 84
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 75,
+      "more_choices": 77,
+      "record_shows": 65
     },
 
     "id": "AK",
@@ -78,6 +88,11 @@ var state_data = {
       "reliability": 81,
       "security": 81
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 77,
+      "more_choices": 70,
+      "record_shows": 61
+    },
 
     "id": "AZ",
     "name": "Arizona"
@@ -95,6 +110,11 @@ var state_data = {
       "quality": 78,
       "reliability": 77,
       "security": 80
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 70,
+      "more_choices": 64,
+      "record_shows": 58
     },
 
     "id": "AR",
@@ -114,6 +134,11 @@ var state_data = {
       "reliability": 82,
       "security": 82
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 77,
+      "more_choices": 69,
+      "record_shows": 64
+    },
 
     "id": "CA",
     "name": "California"
@@ -131,6 +156,11 @@ var state_data = {
       "quality": 81,
       "reliability": 81,
       "security": 82
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 76,
+      "more_choices": 68,
+      "record_shows": 62
     },
 
     "id": "CO",
@@ -150,6 +180,11 @@ var state_data = {
       "reliability": 82,
       "security": 82
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 68,
+      "record_shows": 60
+    },
 
     "id": "CT",
     "name": "Connecticut"
@@ -167,6 +202,11 @@ var state_data = {
       "quality": 83,
       "reliability": 82,
       "security": 81
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 73,
+      "more_choices": 62,
+      "record_shows": 58
     },
 
     "id": "DE",
@@ -186,6 +226,11 @@ var state_data = {
       "reliability": 86,
       "security": 81
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 84,
+      "more_choices": 75,
+      "record_shows": 72
+    },
 
     "id": "DC",
     "name": "District Of Columbia"
@@ -203,6 +248,11 @@ var state_data = {
       "quality": 82,
       "reliability": 81,
       "security": 83
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 66,
+      "record_shows": 60
     },
 
     "id": "FL",
@@ -222,6 +272,11 @@ var state_data = {
       "reliability": 81,
       "security": 80
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 75,
+      "more_choices": 68,
+      "record_shows": 63
+    },
 
     "id": "GA",
     "name": "Georgia"
@@ -239,6 +294,11 @@ var state_data = {
       "quality": 83,
       "reliability": 84,
       "security": 83
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 73,
+      "more_choices": 64,
+      "record_shows": 58
     },
 
     "id": "HI",
@@ -258,6 +318,11 @@ var state_data = {
       "reliability": 78,
       "security": 82
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 68,
+      "more_choices": 61,
+      "record_shows": 56
+    },
 
     "id": "ID",
     "name": "Idaho"
@@ -275,6 +340,11 @@ var state_data = {
       "quality": 83,
       "reliability": 82,
       "security": 82
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 76,
+      "more_choices": 67,
+      "record_shows": 62
     },
 
     "id": "IL",
@@ -294,6 +364,11 @@ var state_data = {
       "reliability": 79,
       "security": 82
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 69,
+      "more_choices": 63,
+      "record_shows": 57
+    },
 
     "id": "IN",
     "name": "Indiana"
@@ -311,6 +386,11 @@ var state_data = {
       "quality": 78,
       "reliability": 79,
       "security": 82
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 68,
+      "more_choices": 60,
+      "record_shows": 56
     },
 
     "id": "IA",
@@ -330,6 +410,11 @@ var state_data = {
       "reliability": 80,
       "security": 83
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 71,
+      "more_choices": 65,
+      "record_shows": 58
+    },
 
     "id": "KS",
     "name": "Kansas"
@@ -347,6 +432,11 @@ var state_data = {
       "quality": 78,
       "reliability": 77,
       "security": 81
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 71,
+      "more_choices": 66,
+      "record_shows": 59
     },
 
     "id": "KY",
@@ -366,6 +456,11 @@ var state_data = {
       "reliability": 77,
       "security": 81
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 73,
+      "more_choices": 67,
+      "record_shows": 61
+    },
 
     "id": "LA",
     "name": "Louisiana"
@@ -383,6 +478,11 @@ var state_data = {
       "quality": 81,
       "reliability": 81,
       "security": 81
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 64,
+      "record_shows": 57
     },
 
     "id": "ME",
@@ -402,6 +502,11 @@ var state_data = {
       "reliability": 84,
       "security": 83
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 75,
+      "more_choices": 68,
+      "record_shows": 60
+    },
 
     "id": "MD",
     "name": "Maryland"
@@ -419,6 +524,11 @@ var state_data = {
       "quality": 84,
       "reliability": 83,
       "security": 82
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 64,
+      "record_shows": 59
     },
 
     "id": "MA",
@@ -438,6 +548,11 @@ var state_data = {
       "reliability": 80,
       "security": 82
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 75,
+      "more_choices": 65,
+      "record_shows": 60
+    },
 
     "id": "MI",
     "name": "Michigan"
@@ -455,6 +570,11 @@ var state_data = {
       "quality": 82,
       "reliability": 82,
       "security": 84
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 72,
+      "more_choices": 63,
+      "record_shows": 58
     },
 
     "id": "MN",
@@ -474,6 +594,11 @@ var state_data = {
       "reliability": 77,
       "security": 81
     },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 67,
+      "record_shows": 62
+    },
 
     "id": "MS",
     "name": "Mississippi"
@@ -491,6 +616,11 @@ var state_data = {
       "quality": 80,
       "reliability": 80,
       "security": 81
+    },
+    "tv_experience": { // NCT 5
+      "original_programming": 74,
+      "more_choices": 67,
+      "record_shows": 62
     },
 
     "id": "MO",
