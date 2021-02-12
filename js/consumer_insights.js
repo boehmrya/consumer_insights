@@ -47,6 +47,7 @@ var state_data = {
       "more_choices": 65,
       "record_shows": 59
     },
+    "gig_speed": 61, // NCT 4
 
     "id": "AL",
     "name": "Alabama"
@@ -70,6 +71,7 @@ var state_data = {
       "more_choices": 77,
       "record_shows": 65
     },
+    "gig_speed": 67, // NCT 4
 
     "id": "AK",
     "name": "Alaska"
@@ -93,6 +95,8 @@ var state_data = {
       "more_choices": 70,
       "record_shows": 61
     },
+    "gig_speed": 63, // NCT 4
+
 
     "id": "AZ",
     "name": "Arizona"
@@ -116,6 +120,8 @@ var state_data = {
       "more_choices": 64,
       "record_shows": 58
     },
+    "gig_speed": 58, // NCT 4
+
 
     "id": "AR",
     "name": "Arkansas"
@@ -139,6 +145,8 @@ var state_data = {
       "more_choices": 69,
       "record_shows": 64
     },
+    "gig_speed": 64, // NCT 4
+
 
     "id": "CA",
     "name": "California"
@@ -162,6 +170,8 @@ var state_data = {
       "more_choices": 68,
       "record_shows": 62
     },
+    "gig_speed": 63, // NCT 4
+
 
     "id": "CO",
     "name": "Colorado"
@@ -185,6 +195,8 @@ var state_data = {
       "more_choices": 68,
       "record_shows": 60
     },
+    "gig_speed": 60, // NCT 4
+
 
     "id": "CT",
     "name": "Connecticut"
@@ -208,6 +220,8 @@ var state_data = {
       "more_choices": 62,
       "record_shows": 58
     },
+    "gig_speed": 57, // NCT 4
+
 
     "id": "DE",
     "name": "Delaware",
@@ -231,6 +245,8 @@ var state_data = {
       "more_choices": 75,
       "record_shows": 72
     },
+    "gig_speed": 67, // NCT 4
+
 
     "id": "DC",
     "name": "District Of Columbia"
@@ -254,6 +270,8 @@ var state_data = {
       "more_choices": 66,
       "record_shows": 60
     },
+    "gig_speed": 59, // NCT 4
+
 
     "id": "FL",
     "name": "Florida"
@@ -277,6 +295,8 @@ var state_data = {
       "more_choices": 68,
       "record_shows": 63
     },
+    "gig_speed": 61, // NCT 4
+
 
     "id": "GA",
     "name": "Georgia"
@@ -300,6 +320,8 @@ var state_data = {
       "more_choices": 64,
       "record_shows": 58
     },
+    "gig_speed": 59, // NCT 4
+
 
     "id": "HI",
     "name": "Hawaii"
@@ -323,6 +345,8 @@ var state_data = {
       "more_choices": 61,
       "record_shows": 56
     },
+    "gig_speed": 58, // NCT 4
+
 
     "id": "ID",
     "name": "Idaho"
@@ -346,6 +370,8 @@ var state_data = {
       "more_choices": 67,
       "record_shows": 62
     },
+    "gig_speed": 60, // NCT 4
+
 
     "id": "IL",
     "name": "Illinois"
@@ -369,6 +395,8 @@ var state_data = {
       "more_choices": 63,
       "record_shows": 57
     },
+    "gig_speed": 58, // NCT 4
+
 
     "id": "IN",
     "name": "Indiana"
@@ -392,6 +420,8 @@ var state_data = {
       "more_choices": 60,
       "record_shows": 56
     },
+    "gig_speed": 59, // NCT 4
+
 
     "id": "IA",
     "name": "Iowa"
@@ -415,6 +445,8 @@ var state_data = {
       "more_choices": 65,
       "record_shows": 58
     },
+    "gig_speed": 62, // NCT 4
+
 
     "id": "KS",
     "name": "Kansas"
@@ -438,6 +470,8 @@ var state_data = {
       "more_choices": 66,
       "record_shows": 59
     },
+    "gig_speed": 58, // NCT 4
+
 
     "id": "KY",
     "name": "Kentucky"
@@ -461,6 +495,8 @@ var state_data = {
       "more_choices": 67,
       "record_shows": 61
     },
+    "gig_speed": 61, // NCT 4
+
 
     "id": "LA",
     "name": "Louisiana"
@@ -484,6 +520,8 @@ var state_data = {
       "more_choices": 64,
       "record_shows": 57
     },
+    "gig_speed": 59, // NCT 4
+
 
     "id": "ME",
     "name": "Maine"
@@ -507,6 +545,8 @@ var state_data = {
       "more_choices": 68,
       "record_shows": 60
     },
+    "gig_speed": 61, // NCT 4
+
 
     "id": "MD",
     "name": "Maryland"
@@ -530,6 +570,8 @@ var state_data = {
       "more_choices": 64,
       "record_shows": 59
     },
+    "gig_speed": 59, // NCT 4
+
 
     "id": "MA",
     "name": "Massachusetts"
@@ -553,6 +595,8 @@ var state_data = {
       "more_choices": 65,
       "record_shows": 60
     },
+    "gig_speed": 60, // NCT 4
+
 
     "id": "MI",
     "name": "Michigan"
@@ -576,6 +620,8 @@ var state_data = {
       "more_choices": 63,
       "record_shows": 58
     },
+    "gig_speed": 62, // NCT 4
+
 
     "id": "MN",
     "name": "Minnesota"
@@ -599,6 +645,8 @@ var state_data = {
       "more_choices": 67,
       "record_shows": 62
     },
+    "gig_speed": 61, // NCT 4
+
 
     "id": "MS",
     "name": "Mississippi"
@@ -622,6 +670,8 @@ var state_data = {
       "more_choices": 62,
       "record_shows": 57
     },
+    "gig_speed": 61, // NCT 4
+
 
     "id": "MO",
     "name": "Missouri"
@@ -645,6 +695,8 @@ var state_data = {
       "more_choices": 64,
       "record_shows": 58
     },
+    "gig_speed": 60, // NCT 4
+
 
     "id": "MT",
     "name": "Montana"
@@ -668,6 +720,8 @@ var state_data = {
       "more_choices": 63,
       "record_shows": 56
     },
+    "gig_speed": 60, // NCT 4
+
 
     "id": "NE",
     "name": "Nebraska"
@@ -691,6 +745,8 @@ var state_data = {
       "more_choices": 66,
       "record_shows": 61
     },
+    "gig_speed": 62, // NCT 4
+
 
     "id": "NV",
     "name": "Nevada"
