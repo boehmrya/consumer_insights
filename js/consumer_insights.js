@@ -746,12 +746,11 @@ var state_data = {
     },
     "gig_speed": 61, // NCT 4
     "internet_features": { // NCT 3
-      "speed": 86,
-      "dependable": 90,
-      "privacy": 88,
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 87,
       "data": 85
     },
-
     "id": "MS",
     "name": "Mississippi"
   },
@@ -775,8 +774,12 @@ var state_data = {
       "record_shows": 57
     },
     "gig_speed": 61, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 89,
+      "privacy": 87,
+      "data": 84
+    },
     "id": "MO",
     "name": "Missouri"
   },
@@ -800,8 +803,12 @@ var state_data = {
       "record_shows": 58
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 84
+    },
     "id": "MT",
     "name": "Montana"
   },
@@ -825,8 +832,12 @@ var state_data = {
       "record_shows": 56
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 83
+    },
     "id": "NE",
     "name": "Nebraska"
   },
@@ -850,8 +861,12 @@ var state_data = {
       "record_shows": 61
     },
     "gig_speed": 62, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 88,
+      "data": 85
+    },
     "id": "NV",
     "name": "Nevada"
   },
@@ -875,8 +890,12 @@ var state_data = {
       "record_shows": 55
     },
     "gig_speed": 59, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 90,
+      "privacy": 89,
+      "data": 83
+    },
     "id": "NH",
     "name": "New Hampshire"
   },
@@ -900,8 +919,12 @@ var state_data = {
       "record_shows": 58
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 91,
+      "privacy": 90,
+      "data": 85
+    },
     "id": "NJ",
     "name": "New Jersey"
   },
@@ -925,8 +948,12 @@ var state_data = {
       "record_shows": 66
     },
     "gig_speed": 62, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 83,
+      "dependable": 88,
+      "privacy": 88,
+      "data": 85
+    },
     "id": "NM",
     "name": "New Mexico"
   },
@@ -950,8 +977,12 @@ var state_data = {
       "record_shows": 65
     },
     "gig_speed": 67, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 89,
+      "data": 85
+    },
     "id": "NY",
     "name": "New York"
   },
@@ -975,8 +1006,12 @@ var state_data = {
       "record_shows": 61
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 87,
+      "data": 85
+    },
     "id": "NC",
     "name": "North Carolina"
   },
@@ -1000,8 +1035,12 @@ var state_data = {
       "record_shows": 55
     },
     "gig_speed": 61, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 83
+    },
     "id": "ND",
     "name": "North Dakota"
   },
@@ -1025,8 +1064,12 @@ var state_data = {
       "record_shows": 59
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 84
+    },
     "id": "OH",
     "name": "Ohio"
   },
@@ -1050,8 +1093,12 @@ var state_data = {
       "record_shows": 59
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 88,
+      "data": 83
+    },
     "id": "OK",
     "name": "Oklahoma"
   },
@@ -1075,7 +1122,12 @@ var state_data = {
       "record_shows": 61
     },
     "gig_speed": 62, // NCT 4
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 90,
+      "privacy": 89,
+      "data": 85
+    },
 
     "id": "OR",
     "name": "Oregon"
@@ -1100,8 +1152,12 @@ var state_data = {
       "record_shows": 58
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 83
+    },
     "id": "PA",
     "name": "Pennsylvania"
   },
@@ -1125,8 +1181,12 @@ var state_data = {
       "record_shows": 61
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 88,
+      "data": 84
+    },
     "id": "RI",
     "name": "Rhode Island"
   },
@@ -1150,8 +1210,12 @@ var state_data = {
       "record_shows": 58
     },
     "gig_speed": 58, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 87,
+      "data": 83
+    },
     "id": "SC",
     "name": "South Carolina"
   },
@@ -1175,8 +1239,12 @@ var state_data = {
       "record_shows": 55
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 90,
+      "privacy": 87,
+      "data": 83
+    },
     "id": "SD",
     "name": "South Dakota"
   },
@@ -1200,8 +1268,12 @@ var state_data = {
       "record_shows": 57
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 86,
+      "data": 83
+    },
     "id": "TN",
     "name": "Tennessee"
   },
@@ -1225,8 +1297,12 @@ var state_data = {
       "record_shows": 64
     },
     "gig_speed": 63, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 89,
+      "privacy": 88,
+      "data": 84
+    },
     "id": "TX",
     "name": "Texas"
   },
@@ -1250,8 +1326,12 @@ var state_data = {
       "record_shows": 57
     },
     "gig_speed": 62, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 89,
+      "privacy": 87,
+      "data": 84
+    },
     "id": "UT",
     "name": "Utah"
   },
@@ -1275,8 +1355,12 @@ var state_data = {
       "record_shows": 59
     },
     "gig_speed": 56, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 87,
+      "privacy": 85,
+      "data": 82
+    },
     "id": "VT",
     "name": "Vermont"
   },
@@ -1300,8 +1384,12 @@ var state_data = {
       "record_shows": 59
     },
     "gig_speed": 63, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 90,
+      "privacy": 87,
+      "data": 83
+    },
     "id": "VA",
     "name": "Virginia"
   },
@@ -1325,8 +1413,12 @@ var state_data = {
       "record_shows": 63
     },
     "gig_speed": 64, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 91,
+      "privacy": 90,
+      "data": 86
+    },
     "id": "WA",
     "name": "Washington"
   },
@@ -1350,8 +1442,12 @@ var state_data = {
       "record_shows": 58
     },
     "gig_speed": 60, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 84,
+      "dependable": 90,
+      "privacy": 88,
+      "data": 84
+    },
     "id": "WV",
     "name": "West Virginia"
   },
@@ -1375,8 +1471,12 @@ var state_data = {
       "record_shows": 57
     },
     "gig_speed": 58, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 89,
+      "privacy": 87,
+      "data": 84
+    },
     "id": "WI",
     "name": "Wisconsin"
   },
@@ -1400,8 +1500,12 @@ var state_data = {
       "record_shows": 57
     },
     "gig_speed": 61, // NCT 4
-
-
+    "internet_features": { // NCT 3
+      "speed": 85,
+      "dependable": 91,
+      "privacy": 89,
+      "data": 84
+    },
     "id": "WY",
     "name": "Wyoming"
   }
