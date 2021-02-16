@@ -68,439 +68,24 @@ h2.section-title {
   margin-top: 22.5px;
 }
 
-.wrap::after,
-.stats-section::after,
-.chart-section::after {
+.wrap::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.chart-section {
-  margin-top: 45px;
-}
-
-.speed-chart {
-  width: 100%;
-}
-
-.section.speed .stats-section {
-  margin-top: 90px;
-}
-
-.section.speed .chart-section {
-  margin-top: 0;
-}
-
-.section-text,
-.chart-text {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.chart-text {
-  margin-top: 22.5px;
-}
-
-.section-text p:last-child,
-.chart-text p:last-child {
-  margin-bottom: 0;
-}
-
-.chart-text {
-  max-width: 770px;
-}
-
-.chart-text p,
-.section-text p {
-  margin-top: 0;
-}
-
-.stats-section .section-text {
-  float: left;
-  margin-right: 90px;
-  max-width: 770px;
-}
-
-.stat-col {
-  text-align: center;
-}
-
-.stats-section .stat-col.single {
-  float: left;
-}
-
-.section.speed .intro {
-  margin-bottom: 0;
-}
-
-.section.speed .chart-section {
-  position: relative;
-}
-
-.section.speed .chart-text {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.stat-col.three-col {
-  float: left;
-  width: 33%;
-  text-align: center;
-  padding: 0 15px;
-}
-
-.stat-wrap {
-  width: 280px;
-  margin: 0 auto;
-}
-
-.stat-num {
-  color: #E71B4F;
-  font-size: 4rem;
-  line-height: 3rem;
-  font-weight: bold;
-}
-
-.stat-num .sign {
-  font-size: 2rem;
-  line-height: 2rem;
-  vertical-align: top;
-}
-
-.stat-num .suffix {
-  margin-left: 10px;
-}
-
-.stat-label {
-  color: #5AC9E7;
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-top: 11.25px;
-}
-
-.stat-text {
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  margin-top: 11.25px;
-}
-
-.stat-source {
-  margin-top: 11.25px;
-  font-size: 14px;
-  color: #666;
-}
-
-.stat-source a {
-  color: #666;
-}
-
-.stat-source a:hover {
-  color: #ccc;
-}
-
-.section.paralax .stat-source {
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
-
-.speed-chart .axis path,
-.speed-chart .axis line,
-.customers-chart .axis path,
-.customers-chart .axis line,
-.adoption-chart .axis path,
-.adoption-chart .axis line,
-.infrastructure-chart .axis path,
-.infrastructure-chart .axis line,
-.cost-chart .axis path,
-.cost-chart .axis line   {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.speed-chart .line,
-.customers-chart .line,
-.adoption-chart .line,
-.infrastructure-chart .line,
-.cost-chart .line {
-  fill: none;
-}
-
-.infrastructure-chart .chart-bar {
-  fill: #ccc;
-}
-
-.infrastructure-chart .chart-bar.blue {
-  fill: #5AC9E7;
-}
-
-.infrastructure-chart .chart-bar.red {
-  fill: #E71B4F;
-}
-
-.cost-chart .cost-chart-bar {
-  fill: #E71B4F;
-}
-
-.speed-chart .x.axis path,
-.customers-chart .x.axis path,
-.adoption-chart .x.axis path,
-.infrastructure-chart .x.axis path,
-.cost-chart .x.axis path {
-  display: inline;
-}
-
-.text-group.hide,
-.text-group.hide circle,
-.text-group.hide .text-label {
-  display: none;
-  visibility: hidden;
-}
-
-.text-group.reveal {
-  opacity: 0;
-  transition: all 0.5s;
-  transition-timing-function: ease;
-}
-
-.text-group.reveal.animated {
-  opacity: 1;
-}
-
-.text-group.blue circle {
-  fill: #5AC9E7;
-}
-
-.text-group.red circle {
-  fill: #E71B4F;
-}
-
-.text-stat {
-  fill: #fff;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.text-label {
-  fill: #fff;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.text-stat-suffix {
-  fill: #fff;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.cost-chart-bar-label {
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  opacity: 0;
-  transition: all 0.5s;
-  transition-timing-function: ease;
-}
-
-.cost-chart-bar-label.reveal {
-  opacity: 1;
-}
-
-.cost-chart-bar-label.white {
-  fill: #fff;
-}
-
-.cost-chart-bar-label.red {
-  fill: #E71B4F;
-}
-
-.cost-chart .tick text {
-  transform: translate(0, 15px);
-  font-size: 1.5rem;
-}
-
-.adoption-chart .y.axis .tick text,
-.customers-chart .y.axis .tick text {
-  transform: translate(-5px, 0px);
-}
-
-.adoption-chart .y.axis .tick:first-child text,
-.customers-chart .y.axis .tick:first-child text {
-  transform: translate(-5px, -5px);
-}
-
-.adoption-chart .x.axis .tick text,
-.customers-chart .x.axis .tick text {
-  transform: translate(0px, 5px);
-}
-
-.adoption-chart .x.axis .tick:first-child text,
-.customers-chart .x.axis .tick:first-child text {
-  transform: translate(15px, 5px);
-}
-
-.shape-wrap .cost-arrow {
-  position: relative;
-}
-
-.section.cost .chart-wrap {
-  float: left;
-  width: 690px;
-  margin-right: 90px;
-}
-
-.section.cost .shape-wrap {
-  float: left;
-  width: 300px;
-}
-
-.shape-wrap .cost-percent-wrap {
-  position: absolute;
-  bottom: 70px;
-  left: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.shape-wrap .cost-percent-num {
-  font-size: 3.5rem;
-  line-height: 3.5rem;
-  font-weight: bold;
-  color: #fff;
-}
-
-.shape-wrap .cost-percent-label {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-}
-
-.shape-wrap .box {
-  width: 300px;
-  height: 0px;
-  transition: height 2s;
-  background: #5AC9E7;
-}
-
-.shape-wrap .box.full {
-  height: 300px;
-}
-
-.shape-wrap .down-arrow {
-  width: 0;
-  height: 0;
-  border-left: 150px solid transparent;
-  border-right: 150px solid transparent;
-  border-top: 150px solid #5AC9E7;
-}
-
-.section.paralax {
-  background: #000;
-  position: relative;
-  margin-bottom: 90px;
-}
-
-.section.paralax::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,.5);
-  content: "";
-}
-
-.section.paralax .outer-wrap {
-  padding: 112.5px 0;
-  background-image: url('../images/globe.jpg');
-  background-size: cover!important;
-  background-attachment: fixed;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.section.paralax.wifi .outer-wrap {
-  background-image: url('../images/globe.jpg');
-}
-
-.section.paralax.network .outer-wrap {
-  background-image: url('../images/earth.jpg');
-}
-
-.section.paralax .outer-wrap .wrap {
-  padding-bottom: 0;
-}
-
-.section.paralax .stat-line {
-  color: #fff;
-  text-align: center;
-  position: relative;
-}
-
-.section.paralax .stat-line.one {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  font-weight: bold;
-}
-
-.section.paralax .stat-line.two {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-top: 22.5px;
-}
-
-.section.speed text.speed.num {
-  font-size: 32px;
-  font-weight: bold;
-  opacity: 0;
-}
-
-.section.speed text.speed.label {
-  font-size: 16px;
-  opacity: 0;
-}
-
-.adoption-chart .y.axis .tick line,
-.customers-chart .y.axis .tick line {
-  opacity: 0.2;
-  stroke-dasharray: 3 3;
-}
-
-.axis-label {
-  font-size: 1.125rem;
+.section.economics {
+  background: #F5F5F8;
 }
 
 
 @media all and (min-width: 1200px) {
-  .speed-chart,
-  .infrastructure-chart {
-    min-height: 600px;
-  }
 
-  .adoption-chart,
-  .customers-chart,
-  .cost-chart {
-    min-height: 500px;
-  }
 }
 
 @media all and (max-width: 1199px) {
   .wrap {
     padding-bottom: 67.5px;
-  }
-  .section.paralax .outer-wrap {
-    padding: 90px 0;
-  }
-  .shape-wrap .cost-percent-num {
-    font-size: 2.75rem;
-    line-height: 2.75rem;
   }
 }
 
@@ -508,80 +93,16 @@ h2.section-title {
   .wrap {
     width: 970px;
   }
-
-  .speed-chart,
-  .infrastructure-chart {
-    min-height: 495px;
-  }
-
-  .adoption-chart,
-  .customers-chart,
-  .cost-chart {
-    min-height: 415px;
-  }
-
-  .section.cost .chart-wrap {
-    width: 520px;
-  }
-
-  .section.cost .shape-wrap {
-    width: 250px;
-  }
-
-  .shape-wrap .box {
-    width: 250px;
-  }
-
-  .shape-wrap .box.full {
-    height: 220px;
-  }
-
-  .shape-wrap .down-arrow {
-    border-left: 125px solid transparent;
-    border-right: 125px solid transparent;
-    border-top: 125px solid #5AC9E7;
-  }
-
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .wrap {
     width: 750px;
   }
-
-  .section.cost .chart-wrap {
-    width: 65%;
-    margin-right: 5%;
-  }
-
-  .section.cost .shape-wrap {
-    width: 25%;
-    max-width: 200px;
-  }
-
-  .shape-wrap .box {
-    width: 200px;
-  }
-
-  .shape-wrap .box.full {
-    height: 200px;
-  }
-
-  .shape-wrap .down-arrow {
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 100px solid #5AC9E7;
-  }
-
-  .stat-wrap {
-    width: auto;
-  }
 }
 
 @media all and (min-width: 500px) and (max-width: 767px) {
-  .stat-wrap {
-    width: 320px;
-  }
+
 }
 
 @media all and (max-width: 991px) {
@@ -589,48 +110,15 @@ h2.section-title {
     width: 100%;
     padding: 0 45px 67.5px 45px;
   }
-  .section.speed .chart-text {
-    position: static;
-    max-width: none;
-  }
 
   h2.section-title {
     font-size: 2rem;
     line-height: 2.25rem;
   }
-
-  .section.paralax .stat-line.one {
-    font-size: 2rem;
-    line-height: 2.25rem;
-  }
-
-  .stat-num {
-    font-size: 3.5rem;
-    line-height: 2.75rem;
-  }
 }
 
 @media all and (max-width: 767px) {
-  .section.cost .chart-wrap {
-    width: 100%;
-    margin-right: 0;
-  }
 
-  .section.cost .shape-wrap {
-    display: none;
-    visibility: hidden;
-  }
-
-  .stat-col.three-col {
-    float: none;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 45px;
-  }
-
-  .stat-col br {
-    display: none;
-  }
 }
 
 @media all and (max-width: 599px) {
@@ -642,9 +130,5 @@ h2.section-title {
 @media all and (max-width: 499px) {
   .wrap {
     padding-bottom: 45px;
-  }
-
-  .section.paralax .outer-wrap {
-    padding: 67.5px 0;
   }
 }
