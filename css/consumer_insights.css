@@ -54,7 +54,7 @@ h2.section-title {
 }
 
 .wrap {
-  padding: 0px 15px 90px 15px;
+  padding: 0px 15px;
   width: 1170px;
   margin: 0 auto;
 }
@@ -90,6 +90,10 @@ h2.section-title {
 .economics {
   background: #F5F5F8;
   padding: 67.5px 0;
+}
+
+.section {
+  margin-bottom: 90px;
 }
 
 .economics form {
