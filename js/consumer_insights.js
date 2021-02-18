@@ -1515,14 +1515,11 @@ var state_data = {
 jQuery(function($){
 
   // flags for whether charts have appeared
-  var internetChart = false;
-  var internetChartEl = $('.internet-service .chart');
-
   var donutChart = false;
   var donutChartEl = $('.donut-chart');
 
   // check if element is in the viewport
-  var isInViewport = function(el) {
+  function isInViewport(el) {
     var elementTop = el.offset().top;
     var elementBottom = elementTop + el.outerHeight();
     var viewportTop = jQuery(window).scrollTop();
@@ -1553,11 +1550,6 @@ jQuery(function($){
 
   // initialize d3 charts in mobile
   function buildCharts() {
-    // only run if we're not throttled
-    if (!internetChart && isInViewport(internetChartEl)) {
-      internetServiceChart();
-      internetChart = true;
-    }
 
     if (!donutChart && isInViewport(donutChartEl)) {
       createDonutChart('.future .donut-chart', 80);
@@ -1621,134 +1613,5 @@ jQuery(function($){
         return [percent, 100 - percent];
     };
   }
-
-
-  // infrastructure investment chart
-  function internetServiceChart() {
-    var data, margin, width, height, viewBox, x, y,
-        tickLabels, xAxis, yAxis, svg, bar;
-
-    //
-    data = [{"category":"Satisfied with quality", "number": 30},
-            {"category":"Satisfied with reliability", "number": 40},
-            {"category":"Satisfied with security", "number": 50},
-            {"category":"Satisfied with speed of downloads", "number": 55.8}];
-
-    // dimensions
-    margin = {top: 120, right: 20, bottom: 80, left: 80};
-    width = 1140 - margin.left - margin.right;
-    height = 600 - margin.top - margin.bottom;
-    viewBox = "0 0 1140 600";
-
-    x = d3.scale.ordinal()
-        .rangeRoundBands([0, width], .05);
-
-    y = d3.scale.linear()
-        .range([height, 0]);
-
-    xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("bottom");
-
-    yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left");
-
-    svg = d3.select(".internet-chart").append("svg")
-        .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", viewBox)
-      .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    data.forEach(function(d) {
-      d.year = parseDate(d.year);
-    });
-
-    x.domain(data.map(function(d) { return d.year; }));
-    y.domain([0,300]);
-
-    // add axes and labels
-    svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(xAxis)
-      .append("text")
-        .attr("y", 60)
-        .attr("x", 540)
-        .attr("dy", ".71em")
-        .attr("class", "axis-label")
-        .style("text-anchor", "end")
-        .text("Year");
-    svg.append("g")
-        .attr("class", "y axis")
-        .call(yAxis)
-      .append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", -80)
-        .attr("x", 0)
-        .attr("dy", ".71em")
-        .attr("class", "axis-label")
-        .style("text-anchor", "end")
-        .text("Amount (Dollars)");
-
-    // Bars
-  bar = svg.selectAll(".chart-bar")
-        .data(data)
-        .enter().append("rect")
-        .attr("class", "chart-bar")
-        .attr("x", function(d) { return x(d.year); })
-        .attr("y", height)
-        .attr("width", x.rangeBand())
-        .attr("height", 0);
-
-  bar.transition()
-      .duration(2000)
-      .ease("ease-in-out")
-      .delay(function(d, i) {
-        return i / data.length * 1000;  // Dynamic delay (each item delays a little longer)
-      })
-      .attr("y", function(d) { return y(d.number); })
-      .attr("height", function(d) { return height - y(d.number); })
-      .each("end", function() {
-        d3.selectAll(".text-group.reveal").attr("class", function(d) {
-          return 'text-group reveal animated';
-        });
-      });
-
-  labelGroup = svg.selectAll(".text-group")
-    .data(data)
-    .enter()
-    .append("g")
-    .attr("class", "text-group")
-    .attr("x", function(d) { return x(d.category) + (x.rangeBand() / 2) })
-    .attr("y", function(d){
-      return y(d.number) - 80;
-    });
-
-  var textStat = labelGroup.append("text")
-      .attr("x", function(d) { return d3.select(this.parentNode).attr('x'); })
-      .attr("y", function(d) { return parseInt(d3.select(this.parentNode).attr('y')) - 3; } )
-      .attr("class", "text-stat")
-      .attr("text-anchor", "middle");
-
-  textStat.append("tspan")
-      .text(function(d) { return d.number; })
-      .attr("class", "text-stat-number")
-      .attr("text-anchor", "middle");
-
-  textStat.append("tspan")
-      .text("%")
-      .attr("class", "text-stat-suffix")
-      .attr("dx", 2)
-      .attr("text-anchor", "middle");
-
-  }
-
-
-
-
-
-
-
 
 });
