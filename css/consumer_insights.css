@@ -77,8 +77,11 @@ h2.section-title {
   margin-bottom: 0;
 }
 
-.section-content {
+.data-section {
   margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .wrap::after {
@@ -87,7 +90,8 @@ h2.section-title {
   display: table;
 }
 
-.economics {
+.economics,
+.tv-experience {
   background: #F5F5F8;
   padding: 67.5px 0;
 }
@@ -106,7 +110,7 @@ h2.section-title {
   font-weight: 700;
 }
 
-.text,
+.data-intro,
 .stat-label {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -160,12 +164,6 @@ h2.section-title {
   top: 15px;
 }
 
-.section-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .stat-col {
   -webkit-box-flex: 1;
   -ms-flex: 1;
@@ -210,10 +208,6 @@ h2.section-title {
   line-height: 1.5625rem;
   margin-top: 45px;
   opacity: .6;
-}
-
-.internet-service .stat-row.one {
-  margin-top: 0;
 }
 
 
