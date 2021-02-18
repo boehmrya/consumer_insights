@@ -1519,6 +1519,13 @@ jQuery(function($){
   var tvChartStat = parseInt($('.original-programming').text());
   var tvChartEl = $('.tv-experience .chart');
 
+  var gigSpeedChart = false;
+  var gigSpeedChartStat = parseInt($('.gig-speed').text());
+  var gigSpeedChartEl = $('.future .chart');
+
+  var speedMap = false;
+  var speedMapEl = $('.speed svg');
+
   // check if element is in the viewport
   function isInViewport(el) {
     var elementTop = el.offset().top;
@@ -1551,11 +1558,25 @@ jQuery(function($){
 
   // initialize d3 charts in mobile
   function buildCharts() {
-
     if (!tvChart && isInViewport(tvChartEl)) {
       createDonutChart('.tv-experience .chart', tvChartStat);
       tvChart = true;
     }
+
+    if (!gigSpeedChart && isInViewport(gigSpeedChartEl)) {
+      createDonutChart('.future .chart', gigSpeedChartStat);
+      gigSpeedChart = true;
+    }
+
+    if (!speedMap && isInViewport(speedMapEl)) {
+      speedMapChart();
+      speedMap = true;
+    }
+  }
+
+
+  function speedMapChart() {
+    $('.speed').addClass('active');
   }
 
 

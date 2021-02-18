@@ -116,6 +116,10 @@ h2.section-title {
   line-height: 2rem;
 }
 
+.data-intro {
+  margin-top: 0;
+}
+
 .economics .form-wrap {
   position: relative;
   margin-bottom: 67.5px;
@@ -164,11 +168,20 @@ h2.section-title {
   top: 15px;
 }
 
-.stat-col,
-.chart-stat {
+.data-col,
+.chart-stat,
+.chart-block {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.speed .chart-block {
+  margin-right: 90px;
+}
+
+.speed .chart-stat {
+  padding-top: 67.5px;
 }
 
 .tv-experience .chart-stat {
@@ -184,8 +197,13 @@ h2.section-title {
   fill: #5AC9E7;
 }
 
-.tv-experience .chart path.color1 {
+.tv-experience .chart path.color1,
+.future .chart path.color1 {
    fill: #d6d9de;
+}
+
+.future .chart path.color0 {
+  fill: #E71B4F;
 }
 
 .tv-experience .stat-col,
@@ -232,7 +250,7 @@ h2.section-title {
   flex: 1;
 }
 
-.stat-col.left {
+.data-col.left {
   margin-right: 90px;
 }
 
@@ -253,6 +271,72 @@ h2.section-title {
   line-height: 1.5625rem;
   margin-top: 45px;
   opacity: .6;
+}
+
+.speed .source {
+  margin-top: 11.25px;
+}
+
+
+.map-outline {
+  fill: #E71B4F;
+  stroke: #E71B4F;
+  stroke-miterlimit:10;
+  fill-rule:evenodd;
+  fill-opacity: 0;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .map-outline {
+    fill-opacity: 1;
+  }
+}
+
+.speed.active svg polygon {
+  stroke-width: 2px;
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  animation-iteration: 1;
+  -webkit-animation-name: outline, fillin;
+          animation-name: outline, fillin;
+  -webkit-animation-duration: 5s, .5s;
+          animation-duration: 5s, .5s;
+  -webkit-animation-delay: 0s, 4s;
+          animation-delay: 0s, 4s;
+}
+
+@-webkit-keyframes outline{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes outline{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes fillin {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
+}
+@keyframes fillin {
+  from {
+    fill-opacity: 0;
+  }
+
+  to {
+    fill-opacity: 1;
+  }
 }
 
 
