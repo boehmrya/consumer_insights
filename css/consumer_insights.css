@@ -160,36 +160,36 @@ h2.section-title {
   top: 15px;
 }
 
-.economics .section-content {
+.section-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.economics .econ-col {
+.stat-col {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.economics .stat-row {
+.stat-row {
   margin-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.economics .stat-num {
+.stat-num {
   margin: 5px 0;
 }
 
-.economics .stat-row .stat {
+.stat-row .stat {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.economics .econ-col.left {
+.stat-col.left {
   margin-right: 90px;
 }
 
@@ -208,8 +208,12 @@ h2.section-title {
 .source {
   font-size: 1.125rem;
   line-height: 1.5625rem;
-  margin-top: 22.5px;
+  margin-top: 45px;
   opacity: .6;
+}
+
+.internet-service .stat-row.one {
+  margin-top: 0;
 }
 
 
