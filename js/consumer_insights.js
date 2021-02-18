@@ -1515,8 +1515,9 @@ var state_data = {
 jQuery(function($){
 
   // flags for whether charts have appeared
-  var donutChart = false;
-  var donutChartEl = $('.donut-chart');
+  var tvChart = false;
+  var tvChartStat = parseInt($('.original-programming').text());
+  var tvChartEl = $('.tv-experience .chart');
 
   // check if element is in the viewport
   function isInViewport(el) {
@@ -1551,9 +1552,9 @@ jQuery(function($){
   // initialize d3 charts in mobile
   function buildCharts() {
 
-    if (!donutChart && isInViewport(donutChartEl)) {
-      createDonutChart('.future .donut-chart', 80);
-      donutChart = true;
+    if (!tvChart && isInViewport(tvChartEl)) {
+      createDonutChart('.tv-experience .chart', tvChartStat);
+      tvChart = true;
     }
   }
 

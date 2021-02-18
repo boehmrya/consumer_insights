@@ -164,10 +164,55 @@ h2.section-title {
   top: 15px;
 }
 
-.stat-col {
+.stat-col,
+.chart-stat {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.tv-experience .chart-stat {
+  margin-top: 22.5px;
+}
+
+.tv-experience .chart {
+  width: 200px;
+  margin-right: 22.5px;
+}
+
+.tv-experience .chart path.color0 {
+  fill: #5AC9E7;
+}
+
+.tv-experience .chart path.color1 {
+   fill: #d6d9de;
+}
+
+.tv-experience .stat-col,
+.tv-experience .chart-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.tv-experience .stat-col {
+  padding-left: 45px;
+  margin-left: 45px;
+  border-left: 1px solid #5AC9E7;
+  justify-content: flex-start;
+}
+
+.tv-experience .stat-col .stat {
+  margin-top: 22.5px;
+  text-align: center;
+  max-width: 250px;
+}
+
+.tv-experience .stat-col .stat:first-child {
+  margin-right: 22.5px;
 }
 
 .stat-row {
