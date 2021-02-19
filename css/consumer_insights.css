@@ -93,8 +93,26 @@ h2.section-title {
 .economics,
 .tv-experience,
 .future {
-  background: #F5F5F8;
   padding: 67.5px 0;
+}
+
+.tv-experience,
+.future {
+  background: #F5F5F8;
+}
+
+.economics {
+  background: #343F49;
+  color: #fff;
+}
+
+.economics h2.section-title {
+  color: #fff;
+}
+
+.economics .top-col.right .stat-label,
+.economics .blue-text {
+  color: #5AC9E7;
 }
 
 .section {
@@ -103,6 +121,23 @@ h2.section-title {
 
 .economics form {
   margin-bottom: 22.5px;
+}
+
+.top-space {
+  padding-top: 20px;
+}
+
+.economics .bottom .stat {
+  float: left;
+  margin-right: 20px;
+}
+
+.economics .bottom .stat-num {
+  margin: 0;
+}
+
+.economics .bottom .stat-label {
+  display: table;
 }
 
 .stat-num {
@@ -128,7 +163,7 @@ h2.section-title {
 
 .economics .form-wrap {
   position: relative;
-  margin-bottom: 67.5px;
+  margin-bottom: 90px;
 }
 
 .economics .form-control {
@@ -155,6 +190,15 @@ h2.section-title {
 
 .economics .form-control:focus {
   outline: none;
+}
+
+.top-col.left {
+  width: 540px;
+  margin-right: 90px;
+}
+
+.top-col.right {
+  width: 600px;
 }
 
 .chart-stat,
@@ -260,7 +304,7 @@ h2.section-title {
 }
 
 .people-bottom svg {
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .people-bottom svg:last-child {
