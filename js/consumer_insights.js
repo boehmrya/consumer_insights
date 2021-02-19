@@ -1633,12 +1633,21 @@ jQuery(function($){
     $("#state option:selected").each(function(){
       var selected = $(this).val();
       var data = state_data[selected];
+      var local_communities = data['helped_local_communities'];
 
-      // Text changes
-
+      // adjust fill of red poeple in local communities section
+      var num_red = Math.round(local_communities / 10);
+      var num_filled = 0;
+      $('.people-bottom svg').each(function() {
+        if (num_filled >= num_red) {
+          return;
+        }
+        $(this).addClass('red');
+        num_filled++;
+      });
 
       // local communities section
-      $('.local-communities').text(data['helped_local_communities']);
+      $('.local-communities').text(local_communities);
 
       // economy section
       $('.us-economy').text(data['economy']['us']);
@@ -1665,10 +1674,6 @@ jQuery(function($){
       $('.privacy').text(data['internet_features']['privacy']);
       $('.more-data').text(data['internet_service']['data']);
       $('.more-speed').text(data['internet_service']['speed']);
-
-
-      console.log(data);
-
     });
   });
 
