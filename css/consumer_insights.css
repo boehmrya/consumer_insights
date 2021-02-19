@@ -91,7 +91,8 @@ h2.section-title {
 }
 
 .economics,
-.tv-experience {
+.tv-experience,
+.future {
   background: #F5F5F8;
   padding: 67.5px 0;
 }
@@ -110,10 +111,15 @@ h2.section-title {
   font-weight: 700;
 }
 
-.data-intro,
-.stat-label {
+.data-intro {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.stat-label {
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  margin-top: 5px;
 }
 
 .data-intro {
@@ -168,7 +174,6 @@ h2.section-title {
   top: 15px;
 }
 
-.data-col,
 .chart-stat,
 .chart-block {
   -webkit-box-flex: 1;
@@ -250,8 +255,21 @@ h2.section-title {
   flex: 1;
 }
 
+.stat-row .stat.one {
+  margin-right: 45px;
+}
+
 .data-col.left {
-  margin-right: 90px;
+  width: 555px;
+  margin-right: 45px;
+}
+
+.data-col.right {
+  width: 540px;
+}
+
+.data-col.right img {
+  width: 100%;
 }
 
 .people-bottom {
@@ -347,6 +365,13 @@ h2.section-title {
 @media all and (max-width: 1199px) {
   .wrap {
     padding-bottom: 67.5px;
+  }
+
+  .data-col.left,
+  .data-col.right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 

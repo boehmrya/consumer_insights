@@ -1519,10 +1519,6 @@ jQuery(function($){
   var tvChartStat = parseInt($('.original-programming').text());
   var tvChartEl = $('.tv-experience .chart');
 
-  var gigSpeedChart = false;
-  var gigSpeedChartStat = parseInt($('.gig-speed').text());
-  var gigSpeedChartEl = $('.future .chart');
-
   var speedMap = false;
   var speedMapEl = $('.speed svg');
 
@@ -1561,11 +1557,6 @@ jQuery(function($){
     if (!tvChart && isInViewport(tvChartEl)) {
       createDonutChart('.tv-experience .chart', tvChartStat);
       tvChart = true;
-    }
-
-    if (!gigSpeedChart && isInViewport(gigSpeedChartEl)) {
-      createDonutChart('.future .chart', gigSpeedChartStat);
-      gigSpeedChart = true;
     }
 
     if (!speedMap && isInViewport(speedMapEl)) {
