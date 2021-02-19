@@ -267,6 +267,31 @@ h2.section-title {
   margin-right: 0;
 }
 
+.people-bottom svg .st0 {
+  stroke: #E71B4F;
+}
+
+.people-bottom svg .st1 {
+  stroke: #E71B4F;
+}
+
+.people-bottom svg.red .st0 {
+  fill: #E71B4F;
+}
+
+.people-bottom svg.red .st1 {
+  fill: #E71B4F;
+}
+
+.people-bottom svg.clear .st0 {
+  fill: transparent;
+}
+
+.people-bottom svg.clear .st1 {
+  fill: transparent;
+}
+
+
 .source {
   font-size: 1.125rem;
   line-height: 1.5625rem;

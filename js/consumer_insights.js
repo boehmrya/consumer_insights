@@ -1639,10 +1639,19 @@ jQuery(function($){
       var num_red = Math.round(local_communities / 10);
       var num_filled = 0;
       $('.people-bottom svg').each(function() {
-        if (num_filled >= num_red) {
-          return;
+        var this_person = $(this);
+        if (num_filled < num_red) {
+          if (this_person.hasClass('clear')) {
+            this_person.removeClass('clear');
+          }
+          this_person.addClass('red');
         }
-        $(this).addClass('red');
+        else {
+          if (this_person.hasClass('red')) {
+            this_person.removeClass('red');
+          }
+          this_person.addClass('clear');
+        }
         num_filled++;
       });
 
