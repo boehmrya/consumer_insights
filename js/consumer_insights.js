@@ -1629,4 +1629,47 @@ jQuery(function($){
 
   $('#state').select2();
 
+  $("#state").change(function() {
+    $("#state option:selected").each(function(){
+      var selected = $(this).val();
+      var data = state_data[selected];
+
+      // Text changes
+
+
+      // local communities section
+      $('.local-communities').text(data['helped_local_communities']);
+
+      // economy section
+      $('.us-economy').text(data['economy']['us']);
+      $('.state-economy').text(data['economy']['state']);
+      $('.local-economy').text(data['economy']['local']);
+      $('.my-job').text(data['economy']['job']);
+
+      // internet services section
+      $('.quality').text(data['internet_service']['quality']);
+      $('.security').text(data['internet_service']['security']);
+      $('.reliability').text(data['internet_service']['reliability']);
+      $('.download-speed').text(data['internet_service']['download_speed']);
+
+      // tv experience section
+      $('.original-programming').text(data['tv_experience']['original_programming']);
+      $('.more-choices').text(data['tv_experience']['more_choices']);
+      $('.record-shows').text(data['tv_experience']['record_shows']);
+
+      // gig speed section
+      $('.gig-speed').text(data['gig_speed']);
+
+      // internet features section
+      $('.dependable').text(data['internet_features']['dependable']);
+      $('.privacy').text(data['internet_features']['privacy']);
+      $('.more-data').text(data['internet_service']['data']);
+      $('.more-speed').text(data['internet_service']['speed']);
+
+
+      console.log(data);
+
+    });
+  });
+
 });
