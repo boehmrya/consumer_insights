@@ -192,15 +192,6 @@ h2.section-title {
   outline: none;
 }
 
-.top-col.left {
-  width: 540px;
-  margin-right: 90px;
-}
-
-.top-col.right {
-  width: 600px;
-}
-
 .chart-stat,
 .chart-block {
   -webkit-box-flex: 1;
@@ -286,15 +277,6 @@ h2.section-title {
   margin-right: 45px;
 }
 
-.data-col.left {
-  width: 555px;
-  margin-right: 45px;
-}
-
-.data-col.right {
-  width: 540px;
-}
-
 .data-col.right img {
   width: 100%;
 }
@@ -346,7 +328,6 @@ h2.section-title {
 .speed .source {
   margin-top: 11.25px;
 }
-
 
 .map-outline {
   fill: #E71B4F;
@@ -442,62 +423,173 @@ h2.section-title {
 }
 
 @media all and (min-width: 1200px) {
+  .top-col.left {
+    width: 540px;
+  }
 
+  .top-col.right {
+    width: 600px;
+  }
+
+  .data-col.left {
+    width: 555px;
+  }
+
+  .data-col.right {
+    width: 540px;
+  }
 }
 
 @media all and (max-width: 1199px) {
-  .wrap {
-    padding-bottom: 67.5px;
+  .section {
+    margin-bottom: 67.5px;
   }
 
-  .data-col.left,
-  .data-col.right {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+  .economics .form-wrap {
+    margin-bottom: 67.5px;
   }
+
+  .stat-label {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .wrap {
     width: 970px;
   }
-}
 
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .wrap {
-    width: 750px;
+  .people-bottom svg {
+    margin-right: 10px;
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 767px) {
+@media all and (min-width: 850px) and (max-width: 1199px) {
+  .data-col,
+  .top-col {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
 
+@media all and (min-width: 768px) and (max-width: 1199px) {
+  .stat-num {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .economics .source {
+    margin-top: -25px;
+  }
+
+  .top-col.left {
+    margin-right: 90px;
+  }
 }
 
 @media all and (max-width: 991px) {
   .wrap {
     width: 100%;
-    padding: 0 45px 67.5px 45px;
+    padding: 0 45px;
   }
 
   h2.section-title {
     font-size: 2rem;
     line-height: 2.25rem;
   }
+
+  .data-intro,
+  .section-text {
+    font-size: 1.25rem;
+    line-height: 1.65rem;
+  }
+
+  .top-col.left {
+    margin-right: 45px;
+  }
+
+  .economics .form-wrap {
+    margin-bottom: 45px;
+  }
+
+  .stat-row {
+    margin-top: 22.5px;
+  }
+}
+
+@media all and (min-width: 850px) and (max-width: 991px) {
+  .people-bottom svg {
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  .economics .source {
+    margin-top: 0;
+  }
+}
+
+@media all and (min-width: 850px) {
+  .data-col.left {
+    margin-right: 45px;
+  }
+}
+
+@media all and (max-width: 849px) {
+  .data-section {
+    display: block;
+    margin-top: 22.5px;
+  }
+
+  .top-col.right {
+    padding-top: 45px;
+    margin-top: 45px;
+    border-top: 1px solid #5AC9E7;
+  }
+
+  .data-col.right {
+    margin-top: 22.5px;
+  }
+
+  .stat-label br {
+    display: none;
+  }
+
+  .source {
+    margin-top: 22.5px;
+  }
 }
 
 @media all and (max-width: 767px) {
-
+  .stat-num {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
 
 @media all and (max-width: 599px) {
   .wrap {
-    padding: 0 22.5px 67.5px 22.5px;
+    padding: 0 22.5px;
+  }
+  .people-bottom svg {
+    width: 24px;
+    margin-right: 8px;
   }
 }
 
 @media all and (max-width: 499px) {
   .wrap {
     padding-bottom: 45px;
+  }
+}
+
+@media all and (max-width: 399px) {
+  .people-bottom svg {
+    width: 20px;
+    margin-right: 4px;
   }
 }
