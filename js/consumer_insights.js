@@ -1627,4 +1627,6 @@ jQuery(function($){
     };
   }
 
+  $('#state').select2();
+
 });
