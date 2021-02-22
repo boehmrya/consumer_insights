@@ -582,14 +582,16 @@ h2.section-title {
 }
 
 @media all and (max-width: 499px) {
-  .wrap {
-    padding-bottom: 45px;
-  }
+  
 }
 
 @media all and (max-width: 399px) {
   .people-bottom svg {
-    width: 20px;
-    margin-right: 4px;
+    width: 15px;
+    margin-right: 3px;
+  }
+
+  .economics .bottom .stat-label {
+    display: block;
   }
 }
