@@ -539,10 +539,27 @@ h2.section-title {
   }
 }
 
+@media all and (max-width: 991px) and (min-width: 500px) {
+  .tv-experience .chart {
+    width: 175px;
+  }
+}
+
 @media all and (max-width: 849px) {
   .data-section {
     display: block;
     margin-top: 22.5px;
+  }
+
+  .tv-experience .stat-col,
+  .tv-experience .chart-col {
+    justify-content: center;
+  }
+
+  .tv-experience .stat-col {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: none;
   }
 
   .top-col.right {
@@ -582,7 +599,19 @@ h2.section-title {
 }
 
 @media all and (max-width: 499px) {
-  
+  .tv-experience .chart-col {
+    display: block;
+    text-align: center;
+  }
+
+  .tv-experience .chart {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .tv-experience .chart-stat {
+    margin-top: 0;
+  }
 }
 
 @media all and (max-width: 399px) {
