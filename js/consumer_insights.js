@@ -1632,6 +1632,16 @@ jQuery(function($){
   $("#state").change(function() {
     $("#state option:selected").each(function(){
       var selected = $(this).val();
+      var residents_text = 'Americans';
+      var residents_title = 'Americans';
+      if (selected != 'US') {
+        residents_text = state_data[selected]['name'] + ' residents';
+        residents_title = state_data[selected]['name'] + ' Residents';
+      }
+      $('.residents').text(residents_text);
+      $('.residents-title').text(residents_title);
+
+
       var data = state_data[selected];
       var local_communities = data['helped_local_communities'];
 
