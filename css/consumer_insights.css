@@ -277,10 +277,6 @@ h2.section-title {
   margin-right: 45px;
 }
 
-.data-col.right img {
-  width: 100%;
-}
-
 .people-bottom {
   margin-bottom: 22.5px;
 }
@@ -533,6 +529,12 @@ h2.section-title {
   }
 }
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .speed .chart-stat {
+    padding-top: 45px;
+  }
+}
+
 @media all and (min-width: 850px) {
   .data-col.left {
     margin-right: 45px;
@@ -546,7 +548,7 @@ h2.section-title {
 }
 
 @media all and (max-width: 849px) {
-  .data-section {
+  .data-section.stats-section {
     display: block;
     margin-top: 22.5px;
   }
@@ -579,12 +581,29 @@ h2.section-title {
   .source {
     margin-top: 22.5px;
   }
+
+  .speed .chart-block {
+    margin-right: 45px;
+  }
 }
 
 @media all and (max-width: 767px) {
+  .data-section.map-section {
+    display: block;
+    margin-top: 22.5px;
+  }
+
   .stat-num {
     font-size: 3rem;
     line-height: 3rem;
+  }
+
+  .speed .chart-block {
+    margin-right: 0;
+  }
+
+  .speed .chart-stat {
+    padding-top: 22.5px;
   }
 }
 
